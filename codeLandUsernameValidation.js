@@ -1,4 +1,4 @@
-function codeLandusernamevalidation(username){
+function codeLandUsernameValidation(username){
     let nameRegex = /^[a-zA-Z\-_]+$/;
     
     
@@ -15,7 +15,7 @@ function codeLandusernamevalidation(username){
         }
 }
 
-codeLandusernamevalidation("u__hello_world123");
-codeLandusernamevalidation("aa_");
+codeLandUsernameValidation("u__hello_world123");
+codeLandUsernameValidation("aa_");
 
-module.exports = codeLandusernamevalidation;
+module.exports = codeLandUsernameValidation;
